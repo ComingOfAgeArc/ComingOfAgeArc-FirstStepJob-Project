@@ -39,7 +39,7 @@ const ApplyJob = () => {
       return;
     }
 
-    if (file.size > 10 * 1024 * 1024) { // 5MB limit
+    if (file.size > 10 * 1024 * 1024) { 
       alert('File size must be less than 5MB');
       return;
     }
@@ -147,3 +147,4 @@ const ApplyJob = () => {
 };
 
 export default ApplyJob;
+
